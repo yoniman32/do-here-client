@@ -1,0 +1,4 @@
+#Sun Aug 19 01:58:51 IDT 2018
+base.0=C\:\\Users\\Jonny\\Desktop\\NativScript\\1\\do-here\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

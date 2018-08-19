@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var router_1 = require("nativescript-angular/router");
+var pages_component_1 = require("~/pages/pages.component");
+var login_component_1 = require("~/pages/login/login.component");
+var register_component_1 = require("~/pages/register/register.component");
+var auth_guard_service_1 = require("~/@shared/services/auth-guard.service");
+var task_list_component_1 = require("~/pages/task-list/task-list.component");
+var new_task_component_1 = require("~/pages/new-task/new-task.component");
+var PAGES_ROUTES = [
+    {
+        path: "", component: pages_component_1.PagesComponent, children: [
+            { path: "login", component: login_component_1.LoginComponent },
+            { path: "register", component: register_component_1.RegisterComponent },
+            { path: "task-list", canActivate: [auth_guard_service_1.AuthGuard], component: task_list_component_1.TaskListComponent },
+            { path: "", redirectTo: "/task-list", pathMatch: "full" },
+            { path: "new-task", canActivate: [auth_guard_service_1.AuthGuard], component: new_task_component_1.NewTaskComponent },
+            { path: "new-task", component: new_task_component_1.NewTaskComponent },
+        ]
+    },
+];
+//, canActivate:[AuthGuard]
+exports.PagesRoutingModule = router_1.NativeScriptRouterModule.forRoot(PAGES_ROUTES);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFnZXMucm91dGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJwYWdlcy5yb3V0ZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLHNEQUF1RTtBQUV2RSwyREFBeUQ7QUFDekQsaUVBQStEO0FBQy9ELDBFQUF3RTtBQUN4RSw0RUFBa0U7QUFDbEUsNkVBQTBFO0FBQzFFLDBFQUF1RTtBQUV2RSxJQUFNLFlBQVksR0FBRztJQUNqQjtRQUNJLElBQUksRUFBRSxFQUFFLEVBQUUsU0FBUyxFQUFFLGdDQUFjLEVBQUUsUUFBUSxFQUFFO1lBQzNDLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxTQUFTLEVBQUUsZ0NBQWMsRUFBRTtZQUM1QyxFQUFFLElBQUksRUFBRSxVQUFVLEVBQUUsU0FBUyxFQUFFLHNDQUFpQixFQUFFO1lBQ2xELEVBQUUsSUFBSSxFQUFFLFdBQVcsRUFBRSxXQUFXLEVBQUUsQ0FBQyw4QkFBUyxDQUFDLEVBQUUsU0FBUyxFQUFFLHVDQUFpQixFQUFFO1lBQzdFLEVBQUUsSUFBSSxFQUFFLEVBQUUsRUFBRSxVQUFVLEVBQUUsWUFBWSxFQUFFLFNBQVMsRUFBRSxNQUFNLEVBQUU7WUFDekQsRUFBRSxJQUFJLEVBQUUsVUFBVSxFQUFFLFdBQVcsRUFBRSxDQUFDLDhCQUFTLENBQUMsRUFBRSxTQUFTLEVBQUUscUNBQWdCLEVBQUU7WUFDM0UsRUFBRSxJQUFJLEVBQUUsVUFBVSxFQUFHLFNBQVMsRUFBRSxxQ0FBZ0IsRUFBRTtTQUNyRDtLQUNKO0NBRUosQ0FBQztBQUNGLDJCQUEyQjtBQUNkLFFBQUEsa0JBQWtCLEdBQXdCLGlDQUF3QixDQUFDLE9BQU8sQ0FBQyxZQUFZLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5hdGl2ZVNjcmlwdFJvdXRlck1vZHVsZSB9IGZyb20gXCJuYXRpdmVzY3JpcHQtYW5ndWxhci9yb3V0ZXJcIjtcclxuaW1wb3J0IHsgTW9kdWxlV2l0aFByb3ZpZGVycyB9IGZyb20gXCJAYW5ndWxhci9jb3JlXCI7XHJcbmltcG9ydCB7IFBhZ2VzQ29tcG9uZW50IH0gZnJvbSBcIn4vcGFnZXMvcGFnZXMuY29tcG9uZW50XCI7XHJcbmltcG9ydCB7IExvZ2luQ29tcG9uZW50IH0gZnJvbSBcIn4vcGFnZXMvbG9naW4vbG9naW4uY29tcG9uZW50XCI7XHJcbmltcG9ydCB7IFJlZ2lzdGVyQ29tcG9uZW50IH0gZnJvbSBcIn4vcGFnZXMvcmVnaXN0ZXIvcmVnaXN0ZXIuY29tcG9uZW50XCI7XHJcbmltcG9ydCB7IEF1dGhHdWFyZCB9IGZyb20gXCJ+L0BzaGFyZWQvc2VydmljZXMvYXV0aC1ndWFyZC5zZXJ2aWNlXCI7XHJcbmltcG9ydCB7IFRhc2tMaXN0Q29tcG9uZW50IH0gZnJvbSBcIn4vcGFnZXMvdGFzay1saXN0L3Rhc2stbGlzdC5jb21wb25lbnRcIjtcclxuaW1wb3J0IHsgTmV3VGFza0NvbXBvbmVudCB9IGZyb20gXCJ+L3BhZ2VzL25ldy10YXNrL25ldy10YXNrLmNvbXBvbmVudFwiO1xyXG5cclxuY29uc3QgUEFHRVNfUk9VVEVTID0gW1xyXG4gICAge1xyXG4gICAgICAgIHBhdGg6IFwiXCIsIGNvbXBvbmVudDogUGFnZXNDb21wb25lbnQsIGNoaWxkcmVuOiBbXHJcbiAgICAgICAgICAgIHsgcGF0aDogXCJsb2dpblwiLCBjb21wb25lbnQ6IExvZ2luQ29tcG9uZW50IH0sXHJcbiAgICAgICAgICAgIHsgcGF0aDogXCJyZWdpc3RlclwiLCBjb21wb25lbnQ6IFJlZ2lzdGVyQ29tcG9uZW50IH0sXHJcbiAgICAgICAgICAgIHsgcGF0aDogXCJ0YXNrLWxpc3RcIiwgY2FuQWN0aXZhdGU6IFtBdXRoR3VhcmRdLCBjb21wb25lbnQ6IFRhc2tMaXN0Q29tcG9uZW50IH0sXHJcbiAgICAgICAgICAgIHsgcGF0aDogXCJcIiwgcmVkaXJlY3RUbzogXCIvdGFzay1saXN0XCIsIHBhdGhNYXRjaDogXCJmdWxsXCIgfSxcclxuICAgICAgICAgICAgeyBwYXRoOiBcIm5ldy10YXNrXCIsIGNhbkFjdGl2YXRlOiBbQXV0aEd1YXJkXSwgY29tcG9uZW50OiBOZXdUYXNrQ29tcG9uZW50IH0sXHJcbiAgICAgICAgICAgIHsgcGF0aDogXCJuZXctdGFza1wiLCAgY29tcG9uZW50OiBOZXdUYXNrQ29tcG9uZW50IH0sXHJcbiAgICAgICAgXVxyXG4gICAgfSxcclxuXHJcbl07XHJcbi8vLCBjYW5BY3RpdmF0ZTpbQXV0aEd1YXJkXVxyXG5leHBvcnQgY29uc3QgUGFnZXNSb3V0aW5nTW9kdWxlOiBNb2R1bGVXaXRoUHJvdmlkZXJzID0gTmF0aXZlU2NyaXB0Um91dGVyTW9kdWxlLmZvclJvb3QoUEFHRVNfUk9VVEVTKTsiXX0=
