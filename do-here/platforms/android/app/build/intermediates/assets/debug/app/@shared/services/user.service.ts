@@ -8,16 +8,18 @@ const appSettings = require("application-settings");
 export class UserService {
   private serverUrl = "http://192.168.14.82/api/Users";
   private TokenUrl = "http://192.168.14.82/token";
+  routerExtensions: any;
   constructor(private http: HttpClient) { }
 
   register(user: User) {
     console.log("you are going to use " + user.email + " as your Email");
+    debugger;
 
     const req = this.http.post(`${this.serverUrl}/PostUser`, {
       username: user.email,
       email: user.email,
       password: user.password
-
+      
     }).subscribe(res => {
       console.log(res);
       console.log("success!");
@@ -38,6 +40,7 @@ export class UserService {
       console.log("Error occured " + " status: " + Response.error);
     }
     );
+    
 
   }
 

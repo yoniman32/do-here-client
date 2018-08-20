@@ -8,8 +8,12 @@ import { RegisterComponent } from "~/pages/register/register.component";
 import { TaskListComponent } from "~/pages/task-list/task-list.component";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { NewTaskComponent } from "~/pages/new-task/new-task.component";
+import { MapComponent } from "~/pages/map/map.component";
+
+
 
 @NgModule({
+    
     imports: [
         NativeScriptModule,
         PagesRoutingModule,
@@ -21,7 +25,9 @@ import { NewTaskComponent } from "~/pages/new-task/new-task.component";
         LoginComponent,
         RegisterComponent,
         TaskListComponent,
-        NewTaskComponent
+        NewTaskComponent,
+        MapComponent
+        
     ],
 })
 export class PagesModule  {

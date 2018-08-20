@@ -40,9 +40,7 @@ export class UserService {
       console.log("Error occured " + " status: " + Response.error);
     }
     );
-      // if(Response!=null){
-      //   this.routerExtensions.navigate(["./login"]);
-      // }
+    
 
   }
 

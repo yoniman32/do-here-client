@@ -10,6 +10,7 @@ C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\asse
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\main.aot.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\main.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\login\login.component.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\new-task\new-task.component.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\pages.component.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\pages.module.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\pages.route.js
@@ -89,9 +90,14 @@ C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\asse
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-angular\zone-js\dist\zone-nativescript.mocha.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-angular\zone-js\testing.jasmine.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-angular\zone-js\testing.mocha.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-geolocation\geolocation.common.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-geolocation\geolocation.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-google-maps-sdk\map-view-common.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-google-maps-sdk\map-view.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\index.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl-common.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\nativescript-permissions\permissions.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\tns_modules\tns-core-modules\application-settings\application-settings-common.js

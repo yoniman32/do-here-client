@@ -23,8 +23,7 @@ export class LoginComponent implements OnInit {
   }
 
   submit() {
-    this.userService.register(this.user);
-  }
+console.log("login");  }
 
   navigateRegister(){
     this.routerExtensions.navigate(["./register"]);

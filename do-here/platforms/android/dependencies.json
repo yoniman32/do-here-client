@@ -4,6 +4,14 @@
         "directory": "..\\..\\node_modules\\nativescript-angular"
     },
     {
+        "name": "nativescript-geolocation",
+        "directory": "..\\..\\node_modules\\nativescript-geolocation"
+    },
+    {
+        "name": "nativescript-google-maps-sdk",
+        "directory": "..\\..\\node_modules\\nativescript-google-maps-sdk"
+    },
+    {
         "name": "nativescript-theme-core",
         "directory": "..\\..\\node_modules\\nativescript-theme-core"
     },
@@ -14,6 +22,10 @@
     {
         "name": "nativescript-intl",
         "directory": "..\\..\\node_modules\\nativescript-intl"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "..\\..\\node_modules\\nativescript-permissions"
     },
     {
         "name": "tns-core-modules-widgets",

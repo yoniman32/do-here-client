@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild } from '@angular/core';
+import { RouterExtensions } from 'nativescript-angular/router';
+
 
 @Component({
   moduleId: module.id,
@@ -7,11 +9,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./task-list.component.scss']
 })
 export class TaskListComponent implements OnInit {
+  
 
-  constructor() { }
+  constructor(private routerExtensions: RouterExtensions) { }
 
   ngOnInit() {
     debugger;
   }
+  submit(){
+    console.log("tap");
+      this.routerExtensions.navigate(["../new-task"]);
+  }
+
+
+
 
 }

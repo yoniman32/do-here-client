@@ -6,18 +6,26 @@ import { SharedModule } from "~/@shared/shared.module";
 import { LoginComponent } from "~/pages/login/login.component";
 import { RegisterComponent } from "~/pages/register/register.component";
 import { TaskListComponent } from "~/pages/task-list/task-list.component";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NewTaskComponent } from "~/pages/new-task/new-task.component";
+import { isEnabled, enableLocationRequest, getCurrentLocation, watchLocation, distance, clearWatch } from "nativescript-geolocation";
+
+
 
 @NgModule({
+    
     imports: [
         NativeScriptModule,
         PagesRoutingModule,
-        SharedModule
+        NativeScriptFormsModule,
+        SharedModule,
     ],
     declarations: [
         PagesComponent,
         LoginComponent,
         RegisterComponent,
-        TaskListComponent
+        TaskListComponent,
+        NewTaskComponent
     ],
 })
 export class PagesModule  {

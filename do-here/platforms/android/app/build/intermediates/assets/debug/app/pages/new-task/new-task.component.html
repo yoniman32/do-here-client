@@ -1,0 +1,9 @@
+<ActionBar title="Add New Task">
+  <NavigationButton text="Go Back" icon="res://back" ></NavigationButton>
+</ActionBar>
+<StackLayout>
+    <textfield hint="Task Title" [(ngModel)]="task.Name"></textfield>
+    <textfield hint="Task Description" [(ngModel)]="task.Description"></textfield>
+
+    <Button text="Create !" class="submit-button" (tap)="create()"></Button>
+</StackLayout>

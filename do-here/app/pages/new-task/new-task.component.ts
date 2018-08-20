@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Task } from '~/@shared/viewModels/taskViewModel/taskViewModel';
+import { RouterExtensions } from 'nativescript-angular/router';
 
 @Component({
   moduleId: module.id,
@@ -9,12 +10,19 @@ import { Task } from '~/@shared/viewModels/taskViewModel/taskViewModel';
 })
 export class NewTaskComponent implements OnInit {
   task:Task;
-  constructor() {
+
+  constructor(private routerExtensions: RouterExtensions) {
     this.task= new Task();
    }
 
   ngOnInit() { }
-  create(){
-    console.log(this.task.Name)
+    create(){
+      console.log(this.task.Name);
+      console.log(this.task.Description);
+    }
+
+    moveToMap(){
+      console.log("tap");
+        this.routerExtensions.navigate(["../map"]);
+    }
   }
-}
