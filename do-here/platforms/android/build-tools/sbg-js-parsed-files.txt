@@ -10,6 +10,7 @@ C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\asse
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\main.aot.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\main.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\login\login.component.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\map\map.component.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\new-task\new-task.component.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\pages.component.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\pages\pages.module.js

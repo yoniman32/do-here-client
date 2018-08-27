@@ -1,10 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { registerElement } from 'nativescript-angular/element-registry';
+import { Component, OnInit, Output } from '@angular/core';
 import { MapView, Marker, Position } from 'nativescript-google-maps-sdk';
 
-// Important - must register MapView plugin in order to use in Angular templates
-registerElement('MapView', () => MapView);
-
+//import of the geo location
+import { isEnabled, enableLocationRequest, getCurrentLocation, watchLocation, distance, clearWatch } from "nativescript-geolocation";
+import { LatLng } from "../../@shared/viewModels/positionModel/latLng.model";
+import * as geolocation from "nativescript-geolocation";
+import { Accuracy } from "ui/enums"; // used to describe at what accuracy the location should be get
+import { RouterExtensions } from 'nativescript-angular/router';
 @Component({
   moduleId: module.id,
   selector: 'app-map',
@@ -12,8 +14,8 @@ registerElement('MapView', () => MapView);
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
-  latitude =  -33.86;
-  longitude = 151.20;
+  lat : any ;
+  lng : any ;
   zoom = 8;
   minZoom = 0;
   maxZoom = 22;
@@ -21,27 +23,60 @@ export class MapComponent implements OnInit {
   tilt = 0;
   padding = [40, 40, 40, 40];
   mapView: MapView;
-
   lastCamera: String;
 
-  constructor() { }
 
-  ngOnInit() { }
+
+  userLocation: LatLng;
+  userMarker: Marker;
+  geolocation = require("nativescript-geolocation");
+  bgGeo ;
+  constructor(private routerExtensions: RouterExtensions ){ 
+    this.userLocation= new LatLng(0,0);
+   }
+
+  ngOnInit() {  
+    this.geolocation.enableLocationRequest()
+  }
+ 
+
+    MarkLocation() {
+      console.log("Marking Location");
+      if(this.userMarker==null){
+        this.setMarker();
+        this.mapView.zoom=18;
+
+  }
+      }
+
+      
    //Map events
    onMapReady(event) {
     console.log('Map Ready');
-
     this.mapView = event.object;
+    console.log("getting current location");
+    geolocation.getCurrentLocation({ desiredAccuracy: Accuracy.high, maximumAge: 5000, timeout: 10000 })
+    .then(location =>{
+      this.mapView.latitude=location.latitude,
+      this.mapView.longitude= location.longitude,
+      this.userLocation.lat=location.latitude,
+      this.userLocation.lng=location.longitude
+    });
+    console.log("removing old marker");
+    this.mapView.removeMarker(this.userMarker);
+    console.log("here");
+    this.MarkLocation();
+  }
 
+  setMarker(){
     console.log("Setting a marker...");
+    this.userMarker = new Marker();
+    this.userMarker.position = Position.positionFromLatLng(this.mapView.latitude, this.mapView.longitude);
+    this.userMarker.userData = {index: 1};
+    this.mapView.addMarker(this.userMarker);
+    }
+    
 
-    var marker = new Marker();
-    marker.position = Position.positionFromLatLng(-33.86, 151.20);
-    marker.title = "Sydney";
-    marker.snippet = "Australia";
-    marker.userData = {index: 1};
-    this.mapView.addMarker(marker);
-}
 
 onCoordinateTapped(args) {
     console.log("Coordinate Tapped, Lat: " + args.position.latitude + ", Lon: " + args.position.longitude, args);
@@ -55,11 +90,18 @@ onMarkerEvent(args) {
 
 onCameraChanged(args) {
     console.log("Camera changed: " + JSON.stringify(args.camera), JSON.stringify(args.camera) === this.lastCamera);
+    this.mapView.zoom=11;
     this.lastCamera = JSON.stringify(args.camera);
+  
 }
 
 onCameraMove(args) {
     console.log("Camera moving: " + JSON.stringify(args.camera));
 }
 
+
+goBeck(){
+  this.routerExtensions.navigate(["../new-task"], {queryParams: {lat: this.userLocation.lat , lng: this.userLocation.lng}});
+  
+}
 }

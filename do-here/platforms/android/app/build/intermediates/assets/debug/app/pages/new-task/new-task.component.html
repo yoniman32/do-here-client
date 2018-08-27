@@ -5,5 +5,8 @@
     <textfield hint="Task Title" [(ngModel)]="task.Name"></textfield>
     <textfield hint="Task Description" [(ngModel)]="task.Description"></textfield>
 
+    <Button text="map !" class="submit-button" (tap)="moveToMap()"></Button>
     <Button text="Create !" class="submit-button" (tap)="create()"></Button>
+    <Button text="go beck" class="submit-button" (tap)="beck()"></Button>
+
 </StackLayout>

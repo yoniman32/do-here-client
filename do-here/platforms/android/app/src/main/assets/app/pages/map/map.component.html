@@ -1,8 +1,14 @@
 <ActionBar title="Map">
   <NavigationButton text="Go Back" icon="res://back" ></NavigationButton>
 </ActionBar>
-<GridLayout>
-  <MapView #mapView [latitude]="latitude" [longitude]="longitude"
+<StackLayout>
+        <Button text="My Location" (tap)="MarkLocation()"></Button>
+        <br>
+        <Button text="beck" (tap)="goBeck()"></Button>
+    </StackLayout>
+    <br>
+<GridLayout >
+  <MapView #mapView [latitude]="lat" [longitude]="lng"
            [zoom]="zoom" [minZoom]="minZoom" [maxZoom]="maxZoom" [bearing]="bearing"
            [tilt]="tilt" i-padding="50,50,50,50" [padding]="padding" (mapReady)="onMapReady($event)"
            (markerSelect)="onMarkerEvent($event)" (markerBeginDragging)="onMarkerEvent($event)"
@@ -10,4 +16,14 @@
            (markerInfoWindowTapped)="onMarkerEvent($event)" (coordinateTapped)="onCoordinateTapped($event)"
            (cameraChanged)="onCameraChanged($event)"
            (cameraMove)="onCameraMove($event)"></MapView>
+
 </GridLayout>
+
+<!-- <GridLayout rows="*, auto" width="100%" height="100%">
+    <AbsoluteLayout row="0">
+        <MapView width="100%" height="100%" (mapReady)="onMapReady($event)" (markerSelect)="onMarkerSelect($event)" (cameraChanged)="onCameraChanged($event)"></MapView>
+        <StackLayout orientation="vertical" verticalAlignment="bottom" height="100%">
+            <Image src="res://directions" width="65" verticalAlignment="bottom" height="65" (tap)="toMyPosition()" marginLeft="16" marginBottom="20"></Image>
+        </StackLayout>
+    </AbsoluteLayout>
+  </GridLayout> -->

@@ -1,18 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
-MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\86fb84bed290b0d67e76adbf807484f5\AndroidManifest.xml:2:1-5:12
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\d8602caab626ce4b9e329e5a409bbedb\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\872049e41c12fe1c0b099e6d8d9c4e10\AndroidManifest.xml:17:1-32:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\149c617f2495fda9db4da2c580350b11\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\278ca6f17096be050a494c153b9e7672\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\6691a1b721d6cb14ffe676fb1efb8601\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f9c3407d2b992022a7282911f7622ae2\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\b82cd3e3bb544efab88a9d8e92a5f9a3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d4ad18bd59987ef0d1251b362fedae19\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\118d32a981128eee0435391f5bfefe9e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\be486f33e4a741e0eb95e467d714eb36\AndroidManifest.xml:17:1-31:12
 MERGED from [:nativescript-optimized-with-inspector:] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\nativescript-optimized-with-inspector.aar\ee2afe999aca596bd99b72473b2b8531\AndroidManifest.xml:2:1-11:12
 MERGED from [:nativescript_geolocation:] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\nativescript_geolocation.aar\9dad49c8dd7c2ccf7a58b6f322f68c64\AndroidManifest.xml:2:1-11:12
@@ -27,9 +28,9 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Jonny\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e1e443acfb04290e16bc4fc338cbb048\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\90de06c521459fba2ddd84306f583ad1\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d6c4f490f9014087ee7e6ae6a980dc6d\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:3:2-35
 		INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml
@@ -58,8 +59,8 @@ uses-sdk
 ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
 INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
 INJECTED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
-MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\86fb84bed290b0d67e76adbf807484f5\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\86fb84bed290b0d67e76adbf807484f5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\d8602caab626ce4b9e329e5a409bbedb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\d8602caab626ce4b9e329e5a409bbedb\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\872049e41c12fe1c0b099e6d8d9c4e10\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\872049e41c12fe1c0b099e6d8d9c4e10\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\149c617f2495fda9db4da2c580350b11\AndroidManifest.xml:21:5-23:62
@@ -68,14 +69,16 @@ MERGED from [com.android.support:multidex:1.0.2] C:\Users\Jonny\.gradle\caches\t
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\278ca6f17096be050a494c153b9e7672\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\6691a1b721d6cb14ffe676fb1efb8601\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\6691a1b721d6cb14ffe676fb1efb8601\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f9c3407d2b992022a7282911f7622ae2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f9c3407d2b992022a7282911f7622ae2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\b82cd3e3bb544efab88a9d8e92a5f9a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\b82cd3e3bb544efab88a9d8e92a5f9a3\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d4ad18bd59987ef0d1251b362fedae19\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d4ad18bd59987ef0d1251b362fedae19\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\118d32a981128eee0435391f5bfefe9e\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\118d32a981128eee0435391f5bfefe9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\be486f33e4a741e0eb95e467d714eb36\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\be486f33e4a741e0eb95e467d714eb36\AndroidManifest.xml:21:5-23:54
 MERGED from [:nativescript-optimized-with-inspector:] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\nativescript-optimized-with-inspector.aar\ee2afe999aca596bd99b72473b2b8531\AndroidManifest.xml:7:5-9:41
@@ -133,23 +136,25 @@ MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.g
 	android:name
 		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
 application
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:21:2-45:16
-MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\86fb84bed290b0d67e76adbf807484f5\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\86fb84bed290b0d67e76adbf807484f5\AndroidManifest.xml:4:5-19
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:21:2-46:16
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\d8602caab626ce4b9e329e5a409bbedb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\d8602caab626ce4b9e329e5a409bbedb\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\872049e41c12fe1c0b099e6d8d9c4e10\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\872049e41c12fe1c0b099e6d8d9c4e10\AndroidManifest.xml:30:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\149c617f2495fda9db4da2c580350b11\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\149c617f2495fda9db4da2c580350b11\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\6691a1b721d6cb14ffe676fb1efb8601\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\6691a1b721d6cb14ffe676fb1efb8601\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f9c3407d2b992022a7282911f7622ae2\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f9c3407d2b992022a7282911f7622ae2\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\b82cd3e3bb544efab88a9d8e92a5f9a3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\b82cd3e3bb544efab88a9d8e92a5f9a3\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d4ad18bd59987ef0d1251b362fedae19\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d4ad18bd59987ef0d1251b362fedae19\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\118d32a981128eee0435391f5bfefe9e\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\118d32a981128eee0435391f5bfefe9e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d3524921fefad2eee208e8f358bb1c2b\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\be486f33e4a741e0eb95e467d714eb36\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\be486f33e4a741e0eb95e467d714eb36\AndroidManifest.xml:25:5-29:19
 MERGED from [:widgets-release:] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\da7822c165dfa2ece83ec4034333d88f\AndroidManifest.xml:11:5-12:19
@@ -181,41 +186,41 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Jonny\.gradle\caches
 	android:name
 		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:27:1-29:72
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:28:5-30:72
 	android:value
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:29:13-69
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:28:13-58
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:29:13-58
 activity#com.tns.NativeScriptActivity
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:30:3-42:14
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:31:4-43:14
 	android:label
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:32:4-49
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:33:4-49
 	android:configChanges
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:33:4-65
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:34:4-65
 	android:theme
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:34:4-44
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:35:4-44
 	android:name
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:31:4-47
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:32:4-47
 meta-data#SET_THEME_ON_LAUNCH
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:36:4-87
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:37:4-87
 	android:resource
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:36:50-84
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:37:50-84
 	android:name
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:36:15-49
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:37:15-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:38:4-41:20
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:39:4-42:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:39:5-57
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:40:5-57
 	android:name
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:39:13-54
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:40:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:40:5-65
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:41:5-65
 	android:name
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:40:15-62
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:41:15-62
 activity#com.tns.ErrorReportActivity
-ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:43:3-57
+ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:44:3-57
 	android:name
-		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:43:13-55
+		ADDED from C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\AndroidManifest.xml:44:13-55
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\872049e41c12fe1c0b099e6d8d9c4e10\AndroidManifest.xml:23:5-79
 MERGED from [:nativescript_google_maps_sdk:] C:\Users\Jonny\.gradle\caches\transforms-1\files-1.1\nativescript_google_maps_sdk.aar\4563e21acedb23f80a62211a9ebbc5fa\AndroidManifest.xml:9:5-79
