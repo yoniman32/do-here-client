@@ -9,7 +9,9 @@ export class UserService {
   private serverUrl = "http://192.168.14.82/api/Users";
   private TokenUrl = "http://192.168.14.82/token";
   routerExtensions: any;
+  
   constructor(private http: HttpClient) { }
+   isLogged : boolean = false;
 
   register(user: User) {
     console.log("you are going to use " + user.email + " as your Email");
@@ -44,7 +46,17 @@ export class UserService {
 
   }
 
-  //  login(user:User){
-  //  const req = this.http.get(this.serverUrl+"/GetUserById",)
-  //  }
+    login():any{
+    // const authToken = appSettings.getString('token');
+    // var headers: HttpHeaders = new HttpHeaders();
+    // const req = this.http.get(this.serverUrl+"/GetUserById").
+    //   subscribe((res =>
+    //   console.log("success ${return this.isLogged}" , res)
+    //  ), err => {
+    //   console.log("Error occured " + " status: " + Response.error);
+    // });
+  }
+
+    
+
 }

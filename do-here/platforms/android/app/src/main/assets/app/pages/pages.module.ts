@@ -6,15 +6,17 @@ import { SharedModule } from "~/@shared/shared.module";
 import { LoginComponent } from "~/pages/login/login.component";
 import { RegisterComponent } from "~/pages/register/register.component";
 import { TaskListComponent } from "~/pages/task-list/task-list.component";
-import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NativeScriptFormsModule, FORMS_DIRECTIVES } from "nativescript-angular/forms";
 import { NewTaskComponent } from "~/pages/new-task/new-task.component";
 import { MapComponent } from "~/pages/map/map.component";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
 @NgModule({
     
     imports: [
+        
         NativeScriptModule,
         PagesRoutingModule,
         NativeScriptFormsModule,
@@ -29,6 +31,8 @@ import { MapComponent } from "~/pages/map/map.component";
         MapComponent
         
     ],
+  
+
 })
 export class PagesModule  {
 

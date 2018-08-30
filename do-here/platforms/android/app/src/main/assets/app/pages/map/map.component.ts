@@ -36,7 +36,6 @@ export class MapComponent implements OnInit {
    }
 
   ngOnInit() {  
-    this.geolocation.enableLocationRequest()
   }
  
 
@@ -52,6 +51,7 @@ export class MapComponent implements OnInit {
       
    //Map events
    onMapReady(event) {
+    this.geolocation.enableLocationRequest()
     console.log('Map Ready');
     this.mapView = event.object;
     console.log("getting current location");

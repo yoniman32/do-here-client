@@ -2,9 +2,13 @@
 import { platformNativeScriptDynamic } from "nativescript-angular/platform";
 import { AppModule } from "./app.module";
 
-
+//imports of the google-maps-sdk
 import { enableProdMode } from '@angular/core';
 import { registerElement } from "nativescript-angular/element-registry";
+
+
+
+
 
  enableProdMode();
  // Important - must register MapView plugin in order to use in Angular templates

@@ -1,9 +1,20 @@
 <ActionBar title="Task List">
   <NavigationButton text="Go Back" icon="res://back" ></NavigationButton>
 </ActionBar>
-<StackLayout>
-  <Button text="Add" class="submit-button" (tap)="submit()"></Button>
+<StackLayout >
+
+<ListView [items]="userTaskList"  >
+  <ng-template let-task="item" >
+    <StackLayout >
+      <Label [text]= "task.Name" (tap)="onItemTap(task)"></Label>
+    </StackLayout >
+  </ng-template>
+</ListView>
+<Button text="Add" class="submit-button" (tap)="submit()"></Button>
+<Button text="logOut" class="submit-button" (tap)="logOut()"></Button>
+<Button text="ShowToken" class="submit-button" (tap)="Tokenv()"></Button>
+</StackLayout >
 
 
-</StackLayout>
+       
 

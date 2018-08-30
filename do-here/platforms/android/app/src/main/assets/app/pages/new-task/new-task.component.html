@@ -6,13 +6,20 @@
     <textfield hint="Task Description" [(ngModel)]="task.Description"></textfield>
     <textfield hint="Start time" [(ngModel)]="task.startTime"></textfield>
     <textfield hint="End time" [(ngModel)]="task.endTime"></textfield>
+    <textfield  hint="Radius" [(ngModel)]="task.Radius"></textfield>
     
     <Button text="map !" class="submit-button" (tap)="moveToMap()"></Button>
-    <textfield [lat]="task.latitude" hint="Latitude" [(ngModel)]="task.latitude"></textfield>
-    <textfield [lng]="task.Longitude" hint="Longitude" [(ngModel)]="task.longitude"></textfield>
+    <textfield [lat]="task.latitude" hint="Latitude" [(ngModel)]="task.Latitude"></textfield>
+    <textfield [lng]="task.Longitude" hint="Longitude" [(ngModel)]="task.Longitude"></textfield>
     <br>
     <Button text="Create Task !" class="submit-button" (tap)="createNewTask()"></Button>
     
     <Button text="go beck" class="submit-button" (tap)="beck()"></Button>
+<!-- <form (ngSubmit)="createNewTask()" [formGroup]="form" >
+  <div class="form-group">
+    <label for="Name">User Name</label>
+    <input type="text" formControlName="Name" class="form-control" id="Name" />
+    </div>
 
+</form> -->
 </StackLayout>

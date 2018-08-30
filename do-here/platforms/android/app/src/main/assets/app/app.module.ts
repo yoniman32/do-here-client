@@ -13,7 +13,7 @@ import { AuthInterceptor} from "~/@shared/services/aute.interceptor";
 
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
-// import { NativeScriptFormsModule } from "nativescript-angular/forms";
+// import { NativeScriptFormsModule }from "nativescript-angular/forms";
 
 // Uncomment and add to NgModule imports  if you need to use the HTTP wrapper
 // import { NativeScriptHttpModule } from "nativescript-angular/http";
@@ -26,10 +26,10 @@ import { AuthInterceptor} from "~/@shared/services/aute.interceptor";
         NativeScriptModule,
         NativeScriptFormsModule,
         SharedModule.forRoot(),
-        PagesModule
+        PagesModule,
     ],
     declarations: [AppComponent,],
-    providers: [ ],
+    providers: [],
     schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }

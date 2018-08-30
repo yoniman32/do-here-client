@@ -23,7 +23,15 @@ export class LoginComponent implements OnInit {
   }
 
   submit() {
-console.log("login");  }
+    console.log("login");
+    // var isLogged ;
+    // isLogged= this.userService.login();
+    // if(isLogged==true){
+      this.routerExtensions.navigate(["../task-list"]);
+
+    
+    
+  }
 
   navigateRegister(){
     this.routerExtensions.navigate(["./register"]);

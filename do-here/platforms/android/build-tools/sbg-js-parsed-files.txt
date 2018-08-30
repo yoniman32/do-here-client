@@ -1,6 +1,12 @@
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\services\aute.interceptor.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\services\auth-guard.service.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\services\inter.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\services\location-service.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\services\task.service.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\services\user.service.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\shared.module.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\viewModels\positionModel\latLan.model.js
+C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\viewModels\positionModel\latLng.model.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\viewModels\taskViewModel\taskViewModel.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\@shared\viewModels\userViewModel\userViewModel.js
 C:\Users\Jonny\Desktop\NativScript\1\do-here\platforms\android\app\src\main\assets\app\app.component.js

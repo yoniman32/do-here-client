@@ -4,9 +4,15 @@
 <StackLayout>
     <textfield hint="Task Title" [(ngModel)]="task.Name"></textfield>
     <textfield hint="Task Description" [(ngModel)]="task.Description"></textfield>
-
+    <textfield hint="Start time" [(ngModel)]="task.startTime"></textfield>
+    <textfield hint="End time" [(ngModel)]="task.endTime"></textfield>
+    
     <Button text="map !" class="submit-button" (tap)="moveToMap()"></Button>
-    <Button text="Create !" class="submit-button" (tap)="create()"></Button>
+    <textfield [lat]="task.latitude" hint="Latitude" [(ngModel)]="task.latitude"></textfield>
+    <textfield [lng]="task.Longitude" hint="Longitude" [(ngModel)]="task.longitude"></textfield>
+    <br>
+    <Button text="Create Task !" class="submit-button" (tap)="createNewTask()"></Button>
+    
     <Button text="go beck" class="submit-button" (tap)="beck()"></Button>
 
 </StackLayout>
